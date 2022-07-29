@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.clear{
+    clear: both;
+}
+#navbar{
+    padding: 10px 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #737373;
+    z-index: 15;
+}
+#navbar .logo img{
+    width: 80px;
+}
+#navbar .menu a{
+    margin-left: 20px;
+    color: #ACB7E6!important;
+    font-weight:550;
+    text-decoration: none;
+}
+#about{
+background-color: #ACB7E6;
+color: #F5EFEF;
+height: 80vh;
+display: flex;
+align-items: center;
+}
+#about .about-text{
+    text-align: justify;
+    line-height: 1.7;
+    word-spacing: 2;
+}
+#products {
+    background-color: #F5EFEF;
+    padding-bottom: 10%;
+    margin-top: -4%;
+}
+#products .header1{
+padding-top: 4%;
+padding-bottom: 3%;
+}
+#products h2{
+    color: #737373;
+}
+#products .card{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+#products .card:hover{
+    transform: scale(1.03);
+    box-shadow:0px 0px 35px 0px #8c8694f2;
+}
+#products .card img{
+    width: 100%;
+    border-radius:10px;
+    height: 280px;
+    object-fit: cover;
+}
+#products .card-body .card-title{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+#products .card-body .price{
+    margin-bottom: 5px;
+    color: #ACB7E6;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#products .card select{
+    padding: 6px 25px;
+    background-color: #ACB7E6;
+    color: white;
+}
+#contact{
+    background-color: #737373;
+}
+#contact .header{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-weight: 500;
+    color: #ACB7E6;
+}
+#contact label {
+    color:#ACB7E6;
+    font-weight:500;
+}
+#contact input, #contact textarea{
+    outline: none!important;
+    /* padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 20px; */
+    border:none;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #2c2c2c;
+    display: block;
+    width: 100%;
+}
+label {
+    color:white;
+    margin-left: 10px;
+}
+#contact textarea{
+    height: 150px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+main{
+    background-color: #fff;
+}
+#carousel h3{
+    color:black;
+    font-size: 20px;
+    text-align: center;
+}
